@@ -1,0 +1,38 @@
+test_0 (__main__.lab1a)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for file creation: ./lab1a.py ... ok
+test_a (__main__.lab1a)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for errors running: ./lab1a.py ... /usr/lib/python3.10/subprocess.py:767: ResourceWarning: unclosed file <_io.TextIOWrapper name=3 encoding='UTF-8'>
+  _cleanup()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_a1 (__main__.lab1a)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for correct shebang line: ./lab1a.py ... ok
+test_b (__main__.lab1a)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test output for correct output "Hello world": ./lab1a.py ... ok
+test_0 (__main__.lab1b)
+[Lab 1] - [Investigation 4] - string objects & printing - Test for file creation: ./lab1b.py ... FAIL
+
+======================================================================
+FAIL: test_0 (__main__.lab1b)
+[Lab 1] - [Investigation 4] - string objects & printing - Test for file creation: ./lab1b.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/azahid19/ops445/lab1/./CheckLab1.py", line 98, in test_0
+    self.assertTrue( os.path.exists('./lab1b.py'), msg=error_output)
+AssertionError: False is not true : your file cannot be found(HINT: make sure you AND your file are in the correct directory)
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.124s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running ./CheckLab1.py
+=================================================================
+    User login name: azahid19
+    Git Email: azahid19@myseneca.ca
+    Linux system name: azahid19-OPS445
+    Python executable: /usr/bin/python3
+    Python version:  3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+    OS Platform: linux
+    Working Directory: /home/azahid19/ops445/lab1
+    Start at: Fri May 17 23:54:00 2024
+=================================================================
